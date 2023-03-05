@@ -1,0 +1,146 @@
+body{
+    background-color: #1f242d;
+}
+.nav-div a img{
+    width: inherit;
+    height: 65px;
+}
+.ul-div{
+    margin-top: auto;
+}
+.ul-div ul{
+    margin: 0px auto;
+
+}
+.ul-div ul li{
+
+    font-size: 19px;
+    margin: 0px 12px;
+}
+.ul-div ul li a{
+    color: white;
+    font-weight: 600;
+}
+.ul-div ul li a:hover, .contact div i:hover{
+    color: #0ef;
+     transition: 1.2s;
+   
+}
+.navbar-toggler{
+background-color: #0ef;
+}
+.ul-div ul li .activit{
+    color: #0ef;
+}
+.main{
+    margin-top: 100px;
+}
+.contact div i{
+    padding-top: 7px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}   
+.content-area{
+    height: 400px;
+}
+.content-intro{
+    /* text-align: center; */
+    height: 300px;
+    margin: 100px 0px;
+    margin-left: 5%;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.content-intro h4{
+    font-size: 45px;
+}
+.content-intro h1{
+    font-size: 80px;
+}
+.content-intro h4 span{
+    color: #0ef;
+}
+.content-intro a button{
+    width: 170px;
+    height: 40px;
+    background-color: #0ef;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    color: black;
+    font-size: 23px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px #0ef;
+    
+}
+.self-image{
+margin: auto auto;
+margin-top: 50px;
+width: 300px;
+height: 300px;
+border: 1px solid white;
+border-radius: 50px;
+background-image: url(./images/ayan.jpg);
+background-size: cover;
+box-shadow: 14px 14px 20px #0ef;
+border: transparent;
+}
+
+
+@media screen and (max-width:992px) {
+    .content-intro h4{
+        font-size: 30px;
+    }    
+    .content-area h1{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width:767px) {
+    .main{
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }   
+    .content-intro{
+        text-align: center;
+        margin: 50px 0px;
+    }
+    .main{
+        margin-top: 0px;
+    }
+    .self-image{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+
+
+
+/* About Page CSS */
+header,main,footer{
+    color: white;
+}
+header{
+    text-align: center;
+}
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+}
+footer p{
+    width: 100%;
+    text-align: center;
+}
+.about-img img{
+    width: 100%;
+    height: 650px;
+}
+@media screen and (max-width:575px) {
+    .about-img{
+        display: none;
+    }   
+}
